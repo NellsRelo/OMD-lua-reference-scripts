@@ -1,0 +1,61 @@
+---@meta
+
+---@class ABalcony_Square_TG_C : ABP_OMDTrapGrid_C
+---@field Box1 UBoxComponent
+---@field Box UBoxComponent
+---@field Collision USceneComponent
+---@field Column_Pointed_Deco_C_SM3 UStaticMeshComponent
+---@field Column_Pointed_Deco_C_SM UStaticMeshComponent
+---@field Column_Pointed_Deco_C_SM1 UStaticMeshComponent
+---@field Column_Pointed_Deco_C_SM2 UStaticMeshComponent
+---@field ColumnTrim_CastStone_300W2 UStaticMeshComponent
+---@field ColumnTrim_CastStone_300W1 UStaticMeshComponent
+---@field ColumnTrim_CastStone_300W UStaticMeshComponent
+---@field ColumnTrim_CastStone_1200W3 UStaticMeshComponent
+---@field ColumnTrim_CastStone_1200W2 UStaticMeshComponent
+---@field ColumnTrim_CastStone_1200W1 UStaticMeshComponent
+---@field ColumnTrim_CastStone_1200W UStaticMeshComponent
+---@field RailingC7 UStaticMeshComponent
+---@field RailingC6 UStaticMeshComponent
+---@field RailingC5 UStaticMeshComponent
+---@field RailingC4 UStaticMeshComponent
+---@field RailingC3 UStaticMeshComponent
+---@field RailingC2 UStaticMeshComponent
+---@field RailingC1 UStaticMeshComponent
+---@field RailingC UStaticMeshComponent
+---@field RailingCornerA3 UStaticMeshComponent
+---@field RailingCornerA2 UStaticMeshComponent
+---@field ColumnTrim_CastStone_300W3 UStaticMeshComponent
+---@field RailingCornerA UStaticMeshComponent
+---@field TowerTop_Pointed_Trim_3x_SM3 UStaticMeshComponent
+---@field TowerTop_Pointed_Trim_3x_SM2 UStaticMeshComponent
+---@field TowerTop_Pointed_Trim_3x_SM1 UStaticMeshComponent
+---@field Wall_1_2_FB7 UStaticMeshComponent
+---@field Wall_1_2_FB6 UStaticMeshComponent
+---@field Wall_1_2_FB5 UStaticMeshComponent
+---@field Wall_1_2_FB4 UStaticMeshComponent
+---@field Wall_1_2_FB3 UStaticMeshComponent
+---@field Wall_1_2_FB2 UStaticMeshComponent
+---@field Wall_1_2_FB1 UStaticMeshComponent
+---@field Wall_1_2_FB UStaticMeshComponent
+---@field TowerTop_Pointed_Trim_3x_SM UStaticMeshComponent
+---@field SM_MERGED_Column_BaseC_CastStone_4x3 UStaticMeshComponent
+---@field SM_MERGED_Column_BaseC_CastStone_4x2 UStaticMeshComponent
+---@field SM_MERGED_Column_BaseC_CastStone_4x1 UStaticMeshComponent
+---@field SM_MERGED_Column_BaseC_CastStone_4x UStaticMeshComponent
+---@field RailingCornerA1 UStaticMeshComponent
+---@field Floor_Mediterranean_2x2_SM3 UStaticMeshComponent
+---@field Floor_Mediterranean_2x2_SM1 UStaticMeshComponent
+---@field Floor_Mediterranean_2x2_SM2 UStaticMeshComponent
+---@field Floor_Mediterranean_2x2_SM UStaticMeshComponent
+---@field Geo USceneComponent
+---@field Wall01 UOMDTrapGridBoxComponent
+---@field Ceiling UOMDTrapGridBoxComponent
+---@field Wall00 UOMDTrapGridBoxComponent
+---@field Wall03 UOMDTrapGridBoxComponent
+---@field Wall02 UOMDTrapGridBoxComponent
+---@field TrapGrids USceneComponent
+ABalcony_Square_TG_C = {}
+
+
+

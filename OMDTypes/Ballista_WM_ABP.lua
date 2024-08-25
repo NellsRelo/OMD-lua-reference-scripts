@@ -1,0 +1,84 @@
+---@meta
+
+---@class UBallista_WM_ABP_C : UOMDTrapAnimInstance
+---@field UberGraphFrame FPointerToUberGraphFrame
+---@field AnimGraphNode_Root FAnimNode_Root
+---@field AnimGraphNode_LayeredBoneBlend_4 FAnimNode_LayeredBoneBlend
+---@field AnimGraphNode_LayeredBoneBlend_3 FAnimNode_LayeredBoneBlend
+---@field AnimGraphNode_LayeredBoneBlend_2 FAnimNode_LayeredBoneBlend
+---@field AnimGraphNode_LayeredBoneBlend_1 FAnimNode_LayeredBoneBlend
+---@field AnimGraphNode_BlendSpacePlayer_1 FAnimNode_BlendSpacePlayer
+---@field AnimGraphNode_LayeredBoneBlend FAnimNode_LayeredBoneBlend
+---@field AnimGraphNode_BlendSpacePlayer FAnimNode_BlendSpacePlayer
+---@field AnimGraphNode_TransitionResult_16 FAnimNode_TransitionResult
+---@field AnimGraphNode_TransitionResult_15 FAnimNode_TransitionResult
+---@field AnimGraphNode_TransitionResult_14 FAnimNode_TransitionResult
+---@field AnimGraphNode_TransitionResult_13 FAnimNode_TransitionResult
+---@field AnimGraphNode_SequencePlayer_13 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_13 FAnimNode_StateResult
+---@field AnimGraphNode_SequencePlayer_12 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_12 FAnimNode_StateResult
+---@field AnimGraphNode_SequencePlayer_11 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_11 FAnimNode_StateResult
+---@field AnimGraphNode_StateMachine_4 FAnimNode_StateMachine
+---@field AnimGraphNode_TransitionResult_12 FAnimNode_TransitionResult
+---@field AnimGraphNode_TransitionResult_11 FAnimNode_TransitionResult
+---@field AnimGraphNode_TransitionResult_10 FAnimNode_TransitionResult
+---@field AnimGraphNode_TransitionResult_9 FAnimNode_TransitionResult
+---@field AnimGraphNode_SequencePlayer_10 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_10 FAnimNode_StateResult
+---@field AnimGraphNode_SequencePlayer_9 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_9 FAnimNode_StateResult
+---@field AnimGraphNode_SequencePlayer_8 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_8 FAnimNode_StateResult
+---@field AnimGraphNode_StateMachine_3 FAnimNode_StateMachine
+---@field AnimGraphNode_TransitionResult_8 FAnimNode_TransitionResult
+---@field AnimGraphNode_TransitionResult_7 FAnimNode_TransitionResult
+---@field AnimGraphNode_TransitionResult_6 FAnimNode_TransitionResult
+---@field AnimGraphNode_TransitionResult_5 FAnimNode_TransitionResult
+---@field AnimGraphNode_SequencePlayer_7 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_7 FAnimNode_StateResult
+---@field AnimGraphNode_SequencePlayer_6 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_6 FAnimNode_StateResult
+---@field AnimGraphNode_SequencePlayer_5 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_5 FAnimNode_StateResult
+---@field AnimGraphNode_StateMachine_2 FAnimNode_StateMachine
+---@field AnimGraphNode_TransitionResult_4 FAnimNode_TransitionResult
+---@field AnimGraphNode_TransitionResult_3 FAnimNode_TransitionResult
+---@field AnimGraphNode_TransitionResult_2 FAnimNode_TransitionResult
+---@field AnimGraphNode_TransitionResult_1 FAnimNode_TransitionResult
+---@field AnimGraphNode_SequencePlayer_4 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_4 FAnimNode_StateResult
+---@field AnimGraphNode_SequencePlayer_3 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_3 FAnimNode_StateResult
+---@field AnimGraphNode_SequencePlayer_2 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_2 FAnimNode_StateResult
+---@field AnimGraphNode_StateMachine_1 FAnimNode_StateMachine
+---@field AnimGraphNode_ApplyAdditive FAnimNode_ApplyAdditive
+---@field AnimGraphNode_Slot FAnimNode_Slot
+---@field AnimGraphNode_TransitionResult FAnimNode_TransitionResult
+---@field AnimGraphNode_SequencePlayer_1 FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult_1 FAnimNode_StateResult
+---@field AnimGraphNode_SequencePlayer FAnimNode_SequencePlayer
+---@field AnimGraphNode_StateResult FAnimNode_StateResult
+---@field AnimGraphNode_StateMachine FAnimNode_StateMachine
+---@field Rotation float
+---@field RotationLastFrame float
+---@field Pitch float
+---@field BL_Fire boolean
+---@field BR_Fire boolean
+---@field TL_Fire boolean
+---@field TR_Fire boolean
+---@field BallistaRotation UAudioComponent
+UBallista_WM_ABP_C = {}
+
+---@param AnimGraph FPoseLink
+function UBallista_WM_ABP_C:AnimGraph(AnimGraph) end
+---@param DeltaTimeX float
+function UBallista_WM_ABP_C:BlueprintUpdateAnimation(DeltaTimeX) end
+---@param Slot int32
+UBallista_WM_ABP_C['Ballista Fire'] = function(Slot) end
+---@param EntryPoint int32
+function UBallista_WM_ABP_C:ExecuteUbergraph_Ballista_WM_ABP(EntryPoint) end
+
+

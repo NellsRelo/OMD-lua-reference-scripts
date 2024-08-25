@@ -1,0 +1,81 @@
+---@meta
+
+---@class ABP_HandGatling_C : AOMDWeapon
+---@field UberGraphFrame FPointerToUberGraphFrame
+---@field P_Gatling_Tracer UParticleSystemComponent
+---@field FXMesh USkeletalMeshComponent
+---@field P_Gatling_Muzzle UParticleSystemComponent
+---@field HandGatling_SKM USkeletalMeshComponent
+---@field DefaultSceneRoot USceneComponent
+---@field Fire2Timeline_EmissiveStrength2_AE9DC37D4AA8DFDB40460AB2C2688BBB float
+---@field Fire2Timeline__Direction_AE9DC37D4AA8DFDB40460AB2C2688BBB ETimelineDirection::Type
+---@field Fire2Timeline UTimelineComponent
+---@field Timeline_0_EmissiveFresnelDetailPower_3A8B005B430F37522D2B59B88EA0D912 float
+---@field Timeline_0_EmissiveFresnelAmount_3A8B005B430F37522D2B59B88EA0D912 float
+---@field Timeline_0_BCBrightness_3A8B005B430F37522D2B59B88EA0D912 float
+---@field Timeline_0_SoftGlow_3A8B005B430F37522D2B59B88EA0D912 float
+---@field Timeline_0_HotGlow_3A8B005B430F37522D2B59B88EA0D912 float
+---@field Timeline_0__Direction_3A8B005B430F37522D2B59B88EA0D912 ETimelineDirection::Type
+---@field Timeline_0 UTimelineComponent
+---@field FireTimeline_EmissiveStrength_1484460E433718055747349794D51D01 float
+---@field FireTimeline__Direction_1484460E433718055747349794D51D01 ETimelineDirection::Type
+---@field FireTimeline UTimelineComponent
+---@field Spinup UAudioComponent
+---@field FireLoop UAudioComponent
+---@field ReflectionLoop UAudioComponent
+---@field PrimaryActive boolean
+ABP_HandGatling_C = {}
+
+---@param Sound_Loop UAudioComponent
+---@param Loop_Stopped boolean
+function ABP_HandGatling_C:StopFireSounds(Sound_Loop, Loop_Stopped) end
+function ABP_HandGatling_C:FireTimeline__FinishedFunc() end
+function ABP_HandGatling_C:FireTimeline__UpdateFunc() end
+function ABP_HandGatling_C:Timeline_0__FinishedFunc() end
+function ABP_HandGatling_C:Timeline_0__UpdateFunc() end
+function ABP_HandGatling_C:Fire2Timeline__FinishedFunc() end
+function ABP_HandGatling_C:Fire2Timeline__UpdateFunc() end
+---@param NotifyName FName
+function ABP_HandGatling_C:OnNotifyEnd_285E8DD041F1CA52D6F83584067E0D45(NotifyName) end
+---@param NotifyName FName
+function ABP_HandGatling_C:OnNotifyBegin_285E8DD041F1CA52D6F83584067E0D45(NotifyName) end
+---@param NotifyName FName
+function ABP_HandGatling_C:OnInterrupted_285E8DD041F1CA52D6F83584067E0D45(NotifyName) end
+---@param NotifyName FName
+function ABP_HandGatling_C:OnBlendOut_285E8DD041F1CA52D6F83584067E0D45(NotifyName) end
+---@param NotifyName FName
+function ABP_HandGatling_C:OnCompleted_285E8DD041F1CA52D6F83584067E0D45(NotifyName) end
+---@param NotifyName FName
+function ABP_HandGatling_C:OnNotifyEnd_01CDFCD9436C8DAEB7B5DA808F258C14(NotifyName) end
+---@param NotifyName FName
+function ABP_HandGatling_C:OnNotifyBegin_01CDFCD9436C8DAEB7B5DA808F258C14(NotifyName) end
+---@param NotifyName FName
+function ABP_HandGatling_C:OnInterrupted_01CDFCD9436C8DAEB7B5DA808F258C14(NotifyName) end
+---@param NotifyName FName
+function ABP_HandGatling_C:OnBlendOut_01CDFCD9436C8DAEB7B5DA808F258C14(NotifyName) end
+---@param NotifyName FName
+function ABP_HandGatling_C:OnCompleted_01CDFCD9436C8DAEB7B5DA808F258C14(NotifyName) end
+---@param NotifyName FName
+function ABP_HandGatling_C:OnNotifyEnd_3C974C6D4C77CD0B29385586D0D9EA8A(NotifyName) end
+---@param NotifyName FName
+function ABP_HandGatling_C:OnNotifyBegin_3C974C6D4C77CD0B29385586D0D9EA8A(NotifyName) end
+---@param NotifyName FName
+function ABP_HandGatling_C:OnInterrupted_3C974C6D4C77CD0B29385586D0D9EA8A(NotifyName) end
+---@param NotifyName FName
+function ABP_HandGatling_C:OnBlendOut_3C974C6D4C77CD0B29385586D0D9EA8A(NotifyName) end
+---@param NotifyName FName
+function ABP_HandGatling_C:OnCompleted_3C974C6D4C77CD0B29385586D0D9EA8A(NotifyName) end
+function ABP_HandGatling_C:BP_ChargeStarted() end
+function ABP_HandGatling_C:BP_ChargeEnded() end
+---@param StatusEffect EStatusEffectCategory
+function ABP_HandGatling_C:BP_ApplyStatusEffectVisuals(StatusEffect) end
+---@param StatusEffect EStatusEffectCategory
+function ABP_HandGatling_C:BP_RemoveStatusEffectVisuals(StatusEffect) end
+function ABP_HandGatling_C:BP_SecondaryFired() end
+function ABP_HandGatling_C:BP_AttachmentEquipped() end
+---@param DeltaSeconds float
+function ABP_HandGatling_C:ReceiveTick(DeltaSeconds) end
+---@param EntryPoint int32
+function ABP_HandGatling_C:ExecuteUbergraph_BP_HandGatling(EntryPoint) end
+
+

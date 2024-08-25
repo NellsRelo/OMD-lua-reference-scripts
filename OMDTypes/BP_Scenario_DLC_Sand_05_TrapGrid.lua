@@ -1,0 +1,60 @@
+---@meta
+
+---@class ABP_Scenario_DLC_Sand_05_TrapGrid_C : ABP_OMDTrapGrid_C
+---@field Box_FloorCollision_013 UBoxComponent
+---@field FloorTrapGrid_013 UOMDTrapGridBoxComponent
+---@field Box_FloorCollision_012 UBoxComponent
+---@field FloorTrapGrid_012 UOMDTrapGridBoxComponent
+---@field Box_WallCollision_01 UBoxComponent
+---@field Box_FloorCollision_011 UBoxComponent
+---@field FloorTrapGrid_011 UOMDTrapGridBoxComponent
+---@field Box_FloorCollision_010 UBoxComponent
+---@field FloorTrapGrid_010 UOMDTrapGridBoxComponent
+---@field Box_CeilingCollision_011 UBoxComponent
+---@field CeilingTrapGrid_011 UOMDTrapGridBoxComponent
+---@field Box_CeilingCollision_010 UBoxComponent
+---@field CeilingTrapGrid_010 UOMDTrapGridBoxComponent
+---@field Box_CeilingCollision_09 UBoxComponent
+---@field CeilingTrapGrid_09 UOMDTrapGridBoxComponent
+---@field Box_CeilingCollision_08 UBoxComponent
+---@field CeilingTrapGrid_08 UOMDTrapGridBoxComponent
+---@field Box_CeilingCollision_07 UBoxComponent
+---@field CeilingTrapGrid_07 UOMDTrapGridBoxComponent
+---@field Box_CeilingCollision_06 UBoxComponent
+---@field CeilingTrapGrid_06 UOMDTrapGridBoxComponent
+---@field Box_CeilingCollision_05 UBoxComponent
+---@field CeilingTrapGrid_05 UOMDTrapGridBoxComponent
+---@field Box_CeilingCollision_04 UBoxComponent
+---@field CeilingTrapGrid_04 UOMDTrapGridBoxComponent
+---@field Box_CeilingCollision_03 UBoxComponent
+---@field CeilingTrapGrid_03 UOMDTrapGridBoxComponent
+---@field Box_CeilingCollision_02 UBoxComponent
+---@field CeilingTrapGrid_02 UOMDTrapGridBoxComponent
+---@field Box_FloorCollision_09 UBoxComponent
+---@field FloorTrapGrid_09 UOMDTrapGridBoxComponent
+---@field Box_FloorCollision_08 UBoxComponent
+---@field FloorTrapGrid_08 UOMDTrapGridBoxComponent
+---@field Box_FloorCollision_07 UBoxComponent
+---@field FloorTrapGrid_07 UOMDTrapGridBoxComponent
+---@field Box_FloorCollision_06 UBoxComponent
+---@field FloorTrapGrid_06 UOMDTrapGridBoxComponent
+---@field Box_FloorCollision_05 UBoxComponent
+---@field FloorTrapGrid_05 UOMDTrapGridBoxComponent
+---@field Box_FloorCollision_04 UBoxComponent
+---@field FloorTrapGrid_04 UOMDTrapGridBoxComponent
+---@field Box_FloorCollision_03 UBoxComponent
+---@field FloorTrapGrid_03 UOMDTrapGridBoxComponent
+---@field Box_FloorCollision_02 UBoxComponent
+---@field FloorTrapGrid_02 UOMDTrapGridBoxComponent
+---@field WallTrapGrid_01 UOMDTrapGridBoxComponent
+---@field Box_CeilingCollision_01 UBoxComponent
+---@field CeilingTrapGrid_01 UOMDTrapGridBoxComponent
+---@field Wall USceneComponent
+---@field Ceiling USceneComponent
+---@field Box_FloorCollision_01 UBoxComponent
+---@field FloorTrapGrid_01 UOMDTrapGridBoxComponent
+---@field Floor USceneComponent
+ABP_Scenario_DLC_Sand_05_TrapGrid_C = {}
+
+
+
