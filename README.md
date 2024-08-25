@@ -6,29 +6,25 @@ If you want to utilize these reference scripts effectively, you'll need to set u
 
 ```json
 {
-	"folders": [
-		{
-			"path": "C:\\Path\\To\\Mods\\Folder",
-			"name": "OMD Lua Mods"
-		},
-		{
-			"path": "C:\\Path\\To\\ReferenceScripts\\Folder",
-			"name": "ReferenceScripts"
-		}
-	],
-	"settings": {
-		"search.exclude": {},
-		"Lua.workspace.library": [
-			"C:\\Path\\To\\ReferenceScripts\\Folder"
-		],
-		"Lua.diagnostics.libraryFiles": "Disable",
-		"Lua.diagnostics.workspaceRate": 25,
-		"Lua.diagnostics.workspaceDelay": 5000,
-		"Lua.workspace.preloadFileSize": 10000,
-		"Lua.diagnostics.globals": [
-      "ModRef"
-    ]
-	}
+  "folders": [
+    {
+      "path": "C:\\OMD3 Mods\\LuaMods\\Mods\\",
+      "name": "OMD Lua Mods"
+    },
+    {
+      "path": "C:\\OMD3 Mods\\LuaMods\\ReferenceScripts",
+      "name": "ReferenceScripts"
+    }
+  ],
+  "settings": {
+    "search.exclude": {},
+    "Lua.workspace.library": ["C:\\OMD3 Mods\\LuaMods\\ReferenceScripts"],
+    "Lua.diagnostics.libraryFiles": "Disable",
+    "Lua.diagnostics.workspaceRate": 25,
+    "Lua.diagnostics.workspaceDelay": 5000,
+    "Lua.workspace.preloadFileSize": 10000,
+    "Lua.diagnostics.globals": ["ModRef"]
+  }
 }
 ```
 Generally, I recommend a Folder Structure set-up for your OMD3 modding environment to look something like:
