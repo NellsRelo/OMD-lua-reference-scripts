@@ -8,11 +8,11 @@ If you want to utilize these reference scripts effectively, you'll need to set u
 {
   "folders": [
     {
-      "path": "C:\\OMD3 Mods\\LuaMods\\Mods\\",
+      "path": "C:\\OMD3Mods\\LuaMods\\Mods\\",
       "name": "OMD Lua Mods"
     },
     {
-      "path": "C:\\OMD3 Mods\\LuaMods\\ReferenceScripts",
+      "path": "C:\\OMD3Mods\\LuaMods\\ReferenceScripts",
       "name": "ReferenceScripts"
     }
   ],
@@ -27,11 +27,13 @@ If you want to utilize these reference scripts effectively, you'll need to set u
   }
 }
 ```
-Generally, I recommend a Folder Structure set-up for your OMD3 modding environment to look something like:
 
+This is assuming a Folder Structure set-up for your OMD3 modding environment that looks something like:
 ```
 C:\OMD3Mods\
             UnpackedFiles\...
+            Tools\...
+            PakMods\...
             LuaMods\
                     Mods\
                           ProjectFolder\
